@@ -1,9 +1,8 @@
-# type: ignore
-import torch 
+from tensor import tenFun
 
 def main():
     print("Hello from tensors!")
-    print("Torch version:", torch.__version__)
+    tenFun()
 
 
 if __name__ == "__main__":
